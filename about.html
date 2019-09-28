@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Safar: Your comfort drives us! </title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+.detail
+{
+	height:500px;
+}
+
+#footer {
+  background-color: #e3f2fd;
+   height: 50px;
+    font-family: 'Verdana', sans-serif;
+    padding: 20px;
+}
+
+#pholder {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.indent {
+  margin:50px;
+}
+
+.size {
+  height: 420px;
+
+}
+
+#info {
+
+}
+</style>
+</head>
+<body style="background-color: powderblue;">
+<!--header-->
+<!--navbar-->
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <div class= "navbar-header">
+        <button type= "button" class="navbar-toggle" data-toggle= "collapse" data-tarPOST= "#bs-safar-navbar-collapse-1">
+          <span class= "sr-only"> Toggle navigation </span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+         </button>
+      <a class="navbar-brand" href="#"> Safar </a> 
+    </div>
+  <div class= "collapse navbar-collapse navbar-right" id="bs-safar-navbar-collapse-1">
+    <ul class= "nav navbar-nav">
+        <div class= "collapse navbar-collapse navbar-right" id="bs-safar-navbar-collapse-1">
+    <ul class= "nav navbar-nav">
+      <li> <a href="./homepage_safar.php"> Home </a> </li>
+      <li> <a href="./about.html"> About </a> </li>
+    <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Login</button> </li>
+   
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+    <form id = "form2" method="post" action="#">
+    <div class="form-group has-feedback">
+    <label for="username">Name:</label>
+    <input type="text" class="form-control" id= "username" placeholder="Username" name="username">
+    <i class="glyphicon glyphicon-map-marker form-control-feedback"></i>
+</div>
+      <div class="form-group has-feedback">
+    <label for="mail">Email id</label>
+    <input type="text" class="form-control" id= "mail" placeholder="mail" name="mail">
+    <i class="glyphicon glyphicon-map-marker form-control-feedback"></i>
+</div>
+<button type="submit" name="login" value="login" class="btn btn-primary">Login</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+   </ul>
+    </div>  
+  </div>
+</nav>
+
+<!--end of navbar-->
+<!--start of generic info-->
+<div>
+  <h2 style="padding:10px;" class="wrapper"><strong>About Us</strong></h2>
+  <div class="indent size"><p>
+  <strong style="font-size: 150%">Making sure your journey is safer and comfortable everyday
+  <br>
+  </strong>
+  <img src="images/cab.gif" style="float:right;width:700px" alt="A comfortable cab ride round the corner">
+  <p style="font-size: 120%" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </p>
+  </div>
+</div>
+<div class="indent">
+  <p style="font-size: 120%;">
+    <h4 style="font-size: 150%;"><strong>The trio behind Safar</strong></h4>
+    <em>Darshan Gandhi <br>  
+    Nipun Iyer <br>
+    Rushabh Chheda <br></em>
+  </p>
+</div>
+<!--help tab-->
+<div style="background-color: black">
+  <div style="padding:20px;margin:80px;font-size: 150%; color: white; width:50%">
+    <p style="font-size:200%;"><strong>We're here to help</strong></p>
+    <p><strong>Support is just a few clicks away. You can also get your questions answered by using our help section.</strong></p>
+
+    <a style="" href="#help">Get Help</a>
+  </div>
+</div>
+
+<footer id="footer">
+    <span class="pull-right"><strong>Version</strong> 1.0.0</span>
+    <p><b>Copyright&nbsp;</b>&copy; Somaiya Vidyavihar | Design and Development. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
